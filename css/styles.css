@@ -211,6 +211,11 @@ ul {
 .header {
   border-bottom: 1px solid;
   border-color: #ececec;
+}
+
+.header-portfolio {
+  border-bottom: 1px solid;
+  border-color: #ececec;
   margin-bottom: 100px;
 }
 
