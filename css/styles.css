@@ -186,9 +186,12 @@ ul {
 .buttonpositioning {
   display: flex;
   flex-grow: 1;
-  max-width: 572px;
+  width: 572px;
+  max-width: 50%;
   margin-top: 94px;
+  justify-content: center;
   justify-content: space-between;
+  margin: 0 auto;
   margin-bottom: 50px;
   align-content: center;
 }
@@ -208,6 +211,7 @@ ul {
 .header {
   border-bottom: 1px solid;
   border-color: #ececec;
+  margin-bottom: 100px;
 }
 
 .header {
