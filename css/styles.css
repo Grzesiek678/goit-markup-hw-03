@@ -49,6 +49,7 @@ body {
 .footerb {
   background-color: var(--grey);
   padding-bottom: 60px;
+  margin-top: 94px;
 }
 .addressb {
   color: var(--white);
@@ -316,4 +317,11 @@ header {
   font-weight: 400;
   margin-left: 24px;
   margin-top: 4px;
+}
+
+.imgborder {
+  border-top: none;
+  border-left: 1px solid #EEEEEE;
+  border-right: 1px solid #EEEEEE;
+  border-bottom: 1px solid #EEEEEE;
 }
