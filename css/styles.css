@@ -219,32 +219,39 @@ ul {
   margin-bottom: 100px;
 }
 
-.header {
+header {
   display: flex;
-  align-items: center;
   justify-content: space-between;
-  flex-direction: row;
-  flex-wrap: wrap;
+  align-items: center;
+  height: 80px;
 }
 
-.logo {
+.header-wrapper {
+  display: flex;
+}
+
+.header-logo {
+  display: flex;
+  margin-right: 93px;
+}
+
+.nav {
   display: flex;
 }
 
 .header-links {
   display: flex;
-  list-style: none;
-  flex-grow: 1;
-  max-width: 40%;
   justify-content: space-between;
+  align-items: center;
+  gap: 46px;
+  margin-right: 371px;
 }
 
 .header-com {
   display: flex;
-  list-style: none;
-  flex-grow: 1;
-  max-width: 40%;
   justify-content: space-between;
+  gap: 50px;
+  align-items: center;
 }
 
 .loremtext {
